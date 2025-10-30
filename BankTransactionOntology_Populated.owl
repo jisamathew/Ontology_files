@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:bank="http://example.org/bank#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="http://example.org/bank#Transaction_1">
+    <rdf:type rdf:resource="http://example.org/bank#Transaction"/>
+    <bank:hasDirection rdf:datatype="http://www.w3.org/2001/XMLSchema#string">outbound</bank:hasDirection>
+    <bank:hasChannel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OTHER</bank:hasChannel>
+    <bank:hasPaymentSystem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OTHER</bank:hasPaymentSystem>
+    <bank:hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.6</bank:hasAmount>
+    <bank:hasCounterpart rdf:datatype="http://www.w3.org/2001/XMLSchema#string">taxes_1</bank:hasCounterpart>
+    <bank:hasAccount rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</bank:hasAccount>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/bank#Account_0">
+    <rdf:type rdf:resource="http://example.org/bank#Account"/>
+    <bank:hasAge rdf:datatype="http://www.w3.org/2001/XMLSchema#string">65.0</bank:hasAge>
+    <bank:hasInitialBalance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">16025.61</bank:hasInitialBalance>
+    <bank:hasBankType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">large</bank:hasBankType>
+    <bank:hasBankName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">large_1</bank:hasBankName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/bank#Transaction_6">
+    <rdf:type rdf:resource="http://example.org/bank#Transaction"/>
+    <bank:hasDirection rdf:datatype="http://www.w3.org/2001/XMLSchema#string">outbound</bank:hasDirection>
+    <bank:hasChannel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SDD</bank:hasChannel>
+    <bank:hasPaymentSystem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BACS</bank:hasPaymentSystem>
+    <bank:hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">20.0</bank:hasAmount>
+    <bank:hasCounterpart rdf:datatype="http://www.w3.org/2001/XMLSchema#string">other_1</bank:hasCounterpart>
+    <bank:hasAccount rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</bank:hasAccount>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/bank#Transaction_4">
+    <rdf:type rdf:resource="http://example.org/bank#Transaction"/>
+    <bank:hasDirection rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inbound</bank:hasDirection>
+    <bank:hasChannel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WIRE TRANSFER</bank:hasChannel>
+    <bank:hasPaymentSystem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BACS</bank:hasPaymentSystem>
+    <bank:hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">515.0</bank:hasAmount>
+    <bank:hasCounterpart rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pension_1</bank:hasCounterpart>
+    <bank:hasAccount rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</bank:hasAccount>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/bank#Transaction_3">
+    <rdf:type rdf:resource="http://example.org/bank#Transaction"/>
+    <bank:hasDirection rdf:datatype="http://www.w3.org/2001/XMLSchema#string">outbound</bank:hasDirection>
+    <bank:hasChannel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OTHER</bank:hasChannel>
+    <bank:hasPaymentSystem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OTHER</bank:hasPaymentSystem>
+    <bank:hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2000.0</bank:hasAmount>
+    <bank:hasCounterpart rdf:datatype="http://www.w3.org/2001/XMLSchema#string">other_1</bank:hasCounterpart>
+    <bank:hasAccount rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</bank:hasAccount>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/bank#IllicitTransaction_116439484">
+    <rdf:type rdf:resource="http://example.org/bank#IllicitTransaction"/>
+    <bank:hasAccount rdf:datatype="http://www.w3.org/2001/XMLSchema#string">685200</bank:hasAccount>
+    <bank:hasSchemaType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">laundering_schema_1</bank:hasSchemaType>
+    <bank:hasSchemaId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">laundering_schema_1_id0</bank:hasSchemaId>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/bank#IllicitTransaction_116439504">
+    <rdf:type rdf:resource="http://example.org/bank#IllicitTransaction"/>
+    <bank:hasAccount rdf:datatype="http://www.w3.org/2001/XMLSchema#string">685200</bank:hasAccount>
+    <bank:hasSchemaType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">laundering_schema_1</bank:hasSchemaType>
+    <bank:hasSchemaId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">laundering_schema_1_id0</bank:hasSchemaId>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/bank#hasSchemaType">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/bank#IllicitTransaction_116439486">
+    <rdf:type rdf:resource="http://example.org/bank#IllicitTransaction"/>
+    <bank:hasAccount rdf:datatype="http://www.w3.org/2001/XMLSchema#string">685200</bank:hasAccount>
+    <bank:hasAccount rdf:datatype="http://www.w3.org/2001/XMLSchema#string">919923</bank:hasAccount>
+    <bank:hasSchemaType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">laundering_schema_1</bank:hasSchemaType>
+    <bank:hasSchemaId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">laundering_schema_1_id0</bank:hasSchemaId>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/bank#IllicitTransaction_116439485">
+    <rdf:type rdf:resource="http://example.org/bank#IllicitTransaction"/>
+    <bank:hasAccount rdf:datatype="http://www.w3.org/2001/XMLSchema#string">685200</bank:hasAccount>
+    <bank:hasAccount rdf:datatype="http://www.w3.org/2001/XMLSchema#string">685199</bank:hasAccount>
+    <bank:hasSchemaType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">laundering_schema_1</bank:hasSchemaType>
+    <bank:hasSchemaId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">laundering_schema_1_id0</bank:hasSchemaId>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/bank#IllicitTransaction_116439482">
+    <rdf:type rdf:resource="http://example.org/bank#IllicitTransaction"/>
+    <bank:hasAccount rdf:datatype="http://www.w3.org/2001/XMLSchema#string">685200</bank:hasAccount>
+    <bank:hasSchemaType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">laundering_schema_1</bank:hasSchemaType>
+    <bank:hasSchemaId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">laundering_schema_1_id0</bank:hasSchemaId>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/bank#Transaction_9">
+    <rdf:type rdf:resource="http://example.org/bank#Transaction"/>
+    <bank:hasDirection rdf:datatype="http://www.w3.org/2001/XMLSchema#string">outbound</bank:hasDirection>
+    <bank:hasChannel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SDD</bank:hasChannel>
+    <bank:hasPaymentSystem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BACS</bank:hasPaymentSystem>
+    <bank:hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">20.0</bank:hasAmount>
+    <bank:hasCounterpart rdf:datatype="http://www.w3.org/2001/XMLSchema#string">other_1</bank:hasCounterpart>
+    <bank:hasAccount rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</bank:hasAccount>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/bank#Account_3">
+    <rdf:type rdf:resource="http://example.org/bank#Account"/>
+    <bank:hasAge rdf:datatype="http://www.w3.org/2001/XMLSchema#string">35.0</bank:hasAge>
+    <bank:hasInitialBalance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6853.846757023836</bank:hasInitialBalance>
+    <bank:hasBankType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">local</bank:hasBankType>
+    <bank:hasBankName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">local_1</bank:hasBankName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/bank#Transaction_0">
+    <rdf:type rdf:resource="http://example.org/bank#Transaction"/>
+    <bank:hasDirection rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inbound</bank:hasDirection>
+    <bank:hasChannel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WIRE TRANSFER</bank:hasChannel>
+    <bank:hasPaymentSystem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BACS</bank:hasPaymentSystem>
+    <bank:hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">515.0</bank:hasAmount>
+    <bank:hasCounterpart rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pension_1</bank:hasCounterpart>
+    <bank:hasAccount rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</bank:hasAccount>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/bank#Transaction_7">
+    <rdf:type rdf:resource="http://example.org/bank#Transaction"/>
+    <bank:hasDirection rdf:datatype="http://www.w3.org/2001/XMLSchema#string">outbound</bank:hasDirection>
+    <bank:hasChannel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OTHER</bank:hasChannel>
+    <bank:hasPaymentSystem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OTHER</bank:hasPaymentSystem>
+    <bank:hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.0</bank:hasAmount>
+    <bank:hasCounterpart rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bank_commission_1</bank:hasCounterpart>
+    <bank:hasAccount rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</bank:hasAccount>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/bank#IllicitTransaction_116439503">
+    <rdf:type rdf:resource="http://example.org/bank#IllicitTransaction"/>
+    <bank:hasAccount rdf:datatype="http://www.w3.org/2001/XMLSchema#string">685200</bank:hasAccount>
+    <bank:hasSchemaType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">laundering_schema_1</bank:hasSchemaType>
+    <bank:hasSchemaId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">laundering_schema_1_id0</bank:hasSchemaId>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/bank#Account_8">
+    <rdf:type rdf:resource="http://example.org/bank#Account"/>
+    <bank:hasAge rdf:datatype="http://www.w3.org/2001/XMLSchema#string">35.0</bank:hasAge>
+    <bank:hasInitialBalance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-0.0139068036165213</bank:hasInitialBalance>
+    <bank:hasBankType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">large</bank:hasBankType>
+    <bank:hasBankName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">large_1</bank:hasBankName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/bank#Account_9">
+    <rdf:type rdf:resource="http://example.org/bank#Account"/>
+    <bank:hasAge rdf:datatype="http://www.w3.org/2001/XMLSchema#string">35.0</bank:hasAge>
+    <bank:hasInitialBalance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">56702.56</bank:hasInitialBalance>
+    <bank:hasBankType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">large</bank:hasBankType>
+    <bank:hasBankName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">large_1</bank:hasBankName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/bank#IllicitTransaction_116439483">
+    <rdf:type rdf:resource="http://example.org/bank#IllicitTransaction"/>
+    <bank:hasAccount rdf:datatype="http://www.w3.org/2001/XMLSchema#string">685200</bank:hasAccount>
+    <bank:hasSchemaType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">laundering_schema_1</bank:hasSchemaType>
+    <bank:hasSchemaId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">laundering_schema_1_id0</bank:hasSchemaId>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/bank#Account_5">
+    <rdf:type rdf:resource="http://example.org/bank#Account"/>
+    <bank:hasAge rdf:datatype="http://www.w3.org/2001/XMLSchema#string">35.0</bank:hasAge>
+    <bank:hasInitialBalance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1343.3627902571611</bank:hasInitialBalance>
+    <bank:hasBankType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">large_digital</bank:hasBankType>
+    <bank:hasBankName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">large_digital_1</bank:hasBankName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/bank#Transaction_2">
+    <rdf:type rdf:resource="http://example.org/bank#Transaction"/>
+    <bank:hasDirection rdf:datatype="http://www.w3.org/2001/XMLSchema#string">outbound</bank:hasDirection>
+    <bank:hasChannel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OTHER</bank:hasChannel>
+    <bank:hasPaymentSystem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OTHER</bank:hasPaymentSystem>
+    <bank:hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.0</bank:hasAmount>
+    <bank:hasCounterpart rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bank_commission_1</bank:hasCounterpart>
+    <bank:hasAccount rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</bank:hasAccount>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/bank#Transaction">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/bank#Transaction_8">
+    <rdf:type rdf:resource="http://example.org/bank#Transaction"/>
+    <bank:hasDirection rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inbound</bank:hasDirection>
+    <bank:hasChannel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WIRE TRANSFER</bank:hasChannel>
+    <bank:hasPaymentSystem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BACS</bank:hasPaymentSystem>
+    <bank:hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">515.0</bank:hasAmount>
+    <bank:hasCounterpart rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pension_1</bank:hasCounterpart>
+    <bank:hasAccount rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</bank:hasAccount>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/bank#Account_2">
+    <rdf:type rdf:resource="http://example.org/bank#Account"/>
+    <bank:hasAge rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20.0</bank:hasAge>
+    <bank:hasInitialBalance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5450.494</bank:hasInitialBalance>
+    <bank:hasBankType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">local</bank:hasBankType>
+    <bank:hasBankName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">local_1</bank:hasBankName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/bank#Transaction_5">
+    <rdf:type rdf:resource="http://example.org/bank#Transaction"/>
+    <bank:hasDirection rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inbound</bank:hasDirection>
+    <bank:hasChannel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OTHER</bank:hasChannel>
+    <bank:hasPaymentSystem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OTHER</bank:hasPaymentSystem>
+    <bank:hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">16.95</bank:hasAmount>
+    <bank:hasCounterpart rdf:datatype="http://www.w3.org/2001/XMLSchema#string">financial_assets_managed_10</bank:hasCounterpart>
+    <bank:hasAccount rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</bank:hasAccount>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/bank#Account">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/bank#Account_7">
+    <rdf:type rdf:resource="http://example.org/bank#Account"/>
+    <bank:hasAge rdf:datatype="http://www.w3.org/2001/XMLSchema#string">35.0</bank:hasAge>
+    <bank:hasInitialBalance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">12118.47951133872</bank:hasInitialBalance>
+    <bank:hasBankType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">local</bank:hasBankType>
+    <bank:hasBankName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">local_1</bank:hasBankName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/bank#IllicitTransaction">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/bank#Transaction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/bank#Account_4">
+    <rdf:type rdf:resource="http://example.org/bank#Account"/>
+    <bank:hasAge rdf:datatype="http://www.w3.org/2001/XMLSchema#string">35.0</bank:hasAge>
+    <bank:hasInitialBalance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3884.210968652736</bank:hasInitialBalance>
+    <bank:hasBankType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">small_digital</bank:hasBankType>
+    <bank:hasBankName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">small_digital_1</bank:hasBankName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/bank#Account_1">
+    <rdf:type rdf:resource="http://example.org/bank#Account"/>
+    <bank:hasAge rdf:datatype="http://www.w3.org/2001/XMLSchema#string">80.0</bank:hasAge>
+    <bank:hasInitialBalance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">32454.89</bank:hasInitialBalance>
+    <bank:hasBankType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">local</bank:hasBankType>
+    <bank:hasBankName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">local_1</bank:hasBankName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/bank#Account_6">
+    <rdf:type rdf:resource="http://example.org/bank#Account"/>
+    <bank:hasAge rdf:datatype="http://www.w3.org/2001/XMLSchema#string">35.0</bank:hasAge>
+    <bank:hasInitialBalance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">7491.26</bank:hasInitialBalance>
+    <bank:hasBankType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">large</bank:hasBankType>
+    <bank:hasBankName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">large_1</bank:hasBankName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/bank#hasCounterpart">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/bank#hasAmount">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/bank#hasBankName">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/bank#hasChannel">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/bank#hasAccount">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/bank#hasBankType">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/bank#hasSchemaId">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/bank#hasAge">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/bank#hasDirection">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/bank#IllicitTransaction_116439480">
+    <rdf:type rdf:resource="http://example.org/bank#IllicitTransaction"/>
+    <bank:hasAccount rdf:datatype="http://www.w3.org/2001/XMLSchema#string">685200</bank:hasAccount>
+    <bank:hasSchemaType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">laundering_schema_1</bank:hasSchemaType>
+    <bank:hasSchemaId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">laundering_schema_1_id0</bank:hasSchemaId>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/bank#hasPaymentSystem">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/bank#hasInitialBalance">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+</rdf:RDF>
